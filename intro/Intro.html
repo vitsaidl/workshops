@@ -13714,7 +13714,7 @@ Třetí prvek je CCC
     <span class="k">if</span> <span class="n">hadane_cislo</span> <span class="o">==</span> <span class="o">-</span><span class="mi">1</span><span class="p">:</span>
         <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Uživatel chce pryč&quot;</span><span class="p">)</span>
         <span class="k">break</span>
-    <span class="n">tipovani</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">hadane_cislo</span><span class="p">)</span>
+        <span class="n">tipovani</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">hadane_cislo</span><span class="p">)</span>
     <span class="k">elif</span> <span class="n">hledane_cislo</span> <span class="o">==</span> <span class="n">hadane_cislo</span><span class="p">:</span>
         <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Skvělé, uhodl(a) jste hledané číslo.&quot;</span><span class="p">)</span>
         <span class="n">uhodnuto</span> <span class="o">=</span> <span class="kc">True</span>
@@ -13993,6 +13993,223 @@ remove(value, /) method of builtins.list instance
 
 </div>
 </div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Nakonec by měly být zmíněny i slovníky (de facto mapy). Popravdě mne však nyní nenapadá, jak je zakomponovat do vytvářeného programu, tudíž se omezím jen na stručný popis jejich fungování.
+Když chceme vytvořit prázdný slovník, postupujeme podobně jako při vytváření prázdného listu, pouze hranaté závorky nahradíme závorkami složenými.</p>
+<div class="highlight"><pre><span></span><span class="n">prazdny_slovnik</span> <span class="o">=</span> <span class="p">{}</span>
+</pre></div>
+<p>Pokud chceme slovník vytvořit s nějakými iniciálními hodnotami, vložíme je do něj ve fromátu klíč: hodnota. To fakticky vypadá nějak takhle:</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">plny_slovnik</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;id&quot;</span><span class="p">:</span><span class="mi">123</span><span class="p">,</span> <span class="s2">&quot;jméno&quot;</span><span class="p">:</span> <span class="s2">&quot;Franta Vomáčka&quot;</span><span class="p">,</span> <span class="s2">&quot;známky&quot;</span><span class="p">:</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">1</span><span class="p">]}</span>
+<span class="n">plny_slovnik</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[5]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>{&#39;id&#39;: 123, &#39;jméno&#39;: &#39;Franta Vomáčka&#39;, &#39;známky&#39;: [1, 2, 3, 2, 5, 1]}</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Pokud chceme ze slovníku získat hodnotu, vložíme za jeho jméno do hranaté závorky klíč:</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">plny_slovnik</span><span class="p">[</span><span class="s2">&quot;známky&quot;</span><span class="p">]</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[6]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>[1, 2, 3, 2, 5, 1]</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Pro přidání nového páru klíč-hodnota položíme název slovníku následovaný novým klíčem v hranatých závorkách rovný nové hodnotě.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">plny_slovnik</span><span class="p">[</span><span class="s2">&quot;něco&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;tralala&quot;</span>
+<span class="n">plny_slovnik</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[7]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>{&#39;id&#39;: 123,
+ &#39;jméno&#39;: &#39;Franta Vomáčka&#39;,
+ &#39;známky&#39;: [1, 2, 3, 2, 5, 1],
+ &#39;něco&#39;: &#39;tralala&#39;}</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Naopak na odstranění záznamu se použije del:</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">del</span> <span class="n">plny_slovnik</span><span class="p">[</span><span class="s2">&quot;něco&quot;</span><span class="p">]</span> 
+<span class="n">plny_slovnik</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[8]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>{&#39;id&#39;: 123, &#39;jméno&#39;: &#39;Franta Vomáčka&#39;, &#39;známky&#39;: [1, 2, 3, 2, 5, 1]}</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Nakonec pokud bychom pro něco potřebovali seznam všech klíčů, hodnot či párů klíč-hodnota, lze použít</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">plny_slovnik</span><span class="o">.</span><span class="n">keys</span><span class="p">())</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">plny_slovnik</span><span class="o">.</span><span class="n">values</span><span class="p">())</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">plny_slovnik</span><span class="o">.</span><span class="n">items</span><span class="p">())</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>dict_keys([&#39;id&#39;, &#39;jméno&#39;, &#39;známky&#39;])
+dict_values([123, &#39;Franta Vomáčka&#39;, [1, 2, 3, 2, 5, 1]])
+dict_items([(&#39;id&#39;, 123), (&#39;jméno&#39;, &#39;Franta Vomáčka&#39;), (&#39;známky&#39;, [1, 2, 3, 2, 5, 1])])
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
