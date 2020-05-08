@@ -13100,7 +13100,7 @@ Nejprve je třeba pandí balíček importovat. Zažila se zvyklost, že se na im
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[2]:</div>
+<div class="prompt input_prompt">In&nbsp;[1]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
@@ -13124,7 +13124,7 @@ Vytvoření prázdného dataframu není zrovna náročné:</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[52]:</div>
+<div class="prompt input_prompt">In&nbsp;[2]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">prazdny_dataframe</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">()</span>
@@ -13141,7 +13141,7 @@ Vytvoření prázdného dataframu není zrovna náročné:</p>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[52]:</div>
+    <div class="prompt output_prompt">Out[2]:</div>
 
 
 
@@ -13188,7 +13188,7 @@ Vytvoření prázdného dataframu není zrovna náročné:</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[53]:</div>
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">jenom_integery</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">155</span><span class="p">]</span>
@@ -13208,7 +13208,7 @@ Vytvoření prázdného dataframu není zrovna náročné:</p>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[53]:</div>
+    <div class="prompt output_prompt">Out[3]:</div>
 
 
 
@@ -13289,7 +13289,7 @@ Funkce info nám řekne, kolik má dataframe řádků (5) a jaké mají řádky 
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[54]:</div>
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">naplneny_dataframe</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
@@ -13338,7 +13338,7 @@ První možností je shape. Zde by se slušelo zdůraznit, že v tomto případ�
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[55]:</div>
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">naplneny_dataframe</span><span class="o">.</span><span class="n">shape</span>
@@ -13354,7 +13354,7 @@ První možností je shape. Zde by se slušelo zdůraznit, že v tomto případ�
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[55]:</div>
+    <div class="prompt output_prompt">Out[5]:</div>
 
 
 
@@ -13379,7 +13379,7 @@ První možností je shape. Zde by se slušelo zdůraznit, že v tomto případ�
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[56]:</div>
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">len</span><span class="p">(</span><span class="n">naplneny_dataframe</span><span class="p">)</span>
@@ -13395,7 +13395,7 @@ První možností je shape. Zde by se slušelo zdůraznit, že v tomto případ�
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[56]:</div>
+    <div class="prompt output_prompt">Out[6]:</div>
 
 
 
@@ -13421,7 +13421,7 @@ Bacha - pokud tuto funkci u dataframu s různými typy sloupců zavoláme bez pa
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[57]:</div>
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">naplneny_dataframe</span><span class="o">.</span><span class="n">describe</span><span class="p">(</span><span class="n">include</span><span class="o">=</span><span class="s2">&quot;all&quot;</span><span class="p">)</span>
@@ -13437,7 +13437,7 @@ Bacha - pokud tuto funkci u dataframu s různými typy sloupců zavoláme bez pa
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[57]:</div>
+    <div class="prompt output_prompt">Out[7]:</div>
 
 
 
@@ -13481,7 +13481,7 @@ Bacha - pokud tuto funkci u dataframu s různými typy sloupců zavoláme bez pa
     <tr>
       <th>top</th>
       <td>NaN</td>
-      <td>jedna</td>
+      <td>dva</td>
       <td>málo</td>
     </tr>
     <tr>
@@ -13553,7 +13553,7 @@ Bacha - pokud tuto funkci u dataframu s různými typy sloupců zavoláme bez pa
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[58]:</div>
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">naplneny_dataframe</span><span class="p">[</span><span class="s2">&quot;cela cisla&quot;</span><span class="p">]</span>
@@ -13569,7 +13569,7 @@ Bacha - pokud tuto funkci u dataframu s různými typy sloupců zavoláme bez pa
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[58]:</div>
+    <div class="prompt output_prompt">Out[8]:</div>
 
 
 
@@ -13599,7 +13599,7 @@ Name: cela cisla, dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[59]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">naplneny_dataframe</span><span class="o">.</span><span class="n">stringy</span>
@@ -13615,7 +13615,7 @@ Name: cela cisla, dtype: int64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[59]:</div>
+    <div class="prompt output_prompt">Out[9]:</div>
 
 
 
@@ -13645,7 +13645,7 @@ Name: stringy, dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[60]:</div>
+<div class="prompt input_prompt">In&nbsp;[10]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">naplneny_dataframe</span><span class="p">[</span><span class="s2">&quot;cela cisla&quot;</span><span class="p">,</span> <span class="s2">&quot;stringy&quot;</span><span class="p">]</span>
@@ -13686,7 +13686,7 @@ Name: stringy, dtype: object</pre>
 During handling of the above exception, another exception occurred:
 
 <span class="ansi-red-intense-fg ansi-bold">KeyError</span>                                  Traceback (most recent call last)
-<span class="ansi-green-intense-fg ansi-bold">&lt;ipython-input-60-2b2b940b7fa2&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
+<span class="ansi-green-intense-fg ansi-bold">&lt;ipython-input-10-2b2b940b7fa2&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
 <span class="ansi-green-intense-fg ansi-bold">----&gt; 1</span><span class="ansi-yellow-intense-fg ansi-bold"> </span>naplneny_dataframe<span class="ansi-yellow-intense-fg ansi-bold">[</span><span class="ansi-blue-intense-fg ansi-bold">&#34;cela cisla&#34;</span><span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-blue-intense-fg ansi-bold">&#34;stringy&#34;</span><span class="ansi-yellow-intense-fg ansi-bold">]</span>
 
 <span class="ansi-green-intense-fg ansi-bold">c:\vs\programovani\python\workshopy\environment\lib\site-packages\pandas\core\frame.py</span> in <span class="ansi-cyan-fg">__getitem__</span><span class="ansi-blue-intense-fg ansi-bold">(self, key)</span>
@@ -13729,7 +13729,7 @@ During handling of the above exception, another exception occurred:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[61]:</div>
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">naplneny_dataframe</span><span class="p">[[</span><span class="s2">&quot;cela cisla&quot;</span><span class="p">,</span> <span class="s2">&quot;stringy&quot;</span><span class="p">]]</span>
@@ -13745,7 +13745,7 @@ During handling of the above exception, another exception occurred:
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[61]:</div>
+    <div class="prompt output_prompt">Out[11]:</div>
 
 
 
@@ -13819,7 +13819,7 @@ During handling of the above exception, another exception occurred:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[62]:</div>
+<div class="prompt input_prompt">In&nbsp;[12]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">naplneny_dataframe</span><span class="p">[</span><span class="s2">&quot;jednicky&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="mi">1</span>
@@ -13837,7 +13837,7 @@ During handling of the above exception, another exception occurred:
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[62]:</div>
+    <div class="prompt output_prompt">Out[12]:</div>
 
 
 
@@ -13929,7 +13929,7 @@ During handling of the above exception, another exception occurred:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[63]:</div>
+<div class="prompt input_prompt">In&nbsp;[13]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">naplneny_dataframe</span> <span class="o">=</span> <span class="n">naplneny_dataframe</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">labels</span><span class="o">=</span><span class="s2">&quot;jednicky&quot;</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
@@ -13946,7 +13946,7 @@ During handling of the above exception, another exception occurred:
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[63]:</div>
+    <div class="prompt output_prompt">Out[13]:</div>
 
 
 
@@ -14032,7 +14032,7 @@ During handling of the above exception, another exception occurred:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[64]:</div>
+<div class="prompt input_prompt">In&nbsp;[14]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">naplneny_dataframe</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="s2">&quot;stringy_podruhe&quot;</span><span class="p">,</span> <span class="n">naplneny_dataframe</span><span class="p">[</span><span class="s2">&quot;stringy&quot;</span><span class="p">])</span>
@@ -14049,7 +14049,7 @@ During handling of the above exception, another exception occurred:
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[64]:</div>
+    <div class="prompt output_prompt">Out[14]:</div>
 
 
 
@@ -14141,7 +14141,7 @@ During handling of the above exception, another exception occurred:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[65]:</div>
+<div class="prompt input_prompt">In&nbsp;[15]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">naplneny_dataframe</span> <span class="o">=</span> <span class="n">naplneny_dataframe</span><span class="o">.</span><span class="n">reindex</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;cela cisla&quot;</span><span class="p">,</span><span class="s2">&quot;stringy&quot;</span><span class="p">,</span> <span class="s2">&quot;stringy_podruhe&quot;</span><span class="p">,</span> <span class="s2">&quot;spojeni_sloupcu&quot;</span><span class="p">,</span> <span class="s2">&quot;smes&quot;</span><span class="p">])</span>
@@ -14158,7 +14158,7 @@ During handling of the above exception, another exception occurred:
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[65]:</div>
+    <div class="prompt output_prompt">Out[15]:</div>
 
 
 
@@ -14250,7 +14250,7 @@ During handling of the above exception, another exception occurred:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[66]:</div>
+<div class="prompt input_prompt">In&nbsp;[16]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">naplneny_dataframe</span> <span class="o">=</span> <span class="n">naplneny_dataframe</span><span class="p">[[</span><span class="s2">&quot;stringy&quot;</span><span class="p">,</span> <span class="s2">&quot;stringy_podruhe&quot;</span><span class="p">,</span> <span class="s2">&quot;spojeni_sloupcu&quot;</span><span class="p">,</span> <span class="s2">&quot;cela cisla&quot;</span><span class="p">,</span> <span class="s2">&quot;smes&quot;</span><span class="p">]]</span>
@@ -14267,7 +14267,7 @@ During handling of the above exception, another exception occurred:
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[66]:</div>
+    <div class="prompt output_prompt">Out[16]:</div>
 
 
 
@@ -14359,7 +14359,7 @@ During handling of the above exception, another exception occurred:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[67]:</div>
+<div class="prompt input_prompt">In&nbsp;[17]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">naplneny_dataframe</span><span class="o">.</span><span class="n">columns</span>
@@ -14375,7 +14375,7 @@ During handling of the above exception, another exception occurred:
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[67]:</div>
+    <div class="prompt output_prompt">Out[17]:</div>
 
 
 
@@ -14400,7 +14400,7 @@ During handling of the above exception, another exception occurred:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[68]:</div>
+<div class="prompt input_prompt">In&nbsp;[18]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">naplneny_dataframe</span><span class="o">.</span><span class="n">columns</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;stringy&#39;</span><span class="p">,</span> <span class="s1">&#39;stringy_znova&#39;</span><span class="p">,</span> <span class="s1">&#39;spojeni_sloipcu&#39;</span><span class="p">,</span> <span class="s2">&quot;cela cisla&quot;</span><span class="p">,</span> <span class="s2">&quot;smes&quot;</span><span class="p">]</span>
@@ -14428,7 +14428,7 @@ During handling of the above exception, another exception occurred:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[69]:</div>
+<div class="prompt input_prompt">In&nbsp;[19]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">naplneny_dataframe</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
@@ -14444,7 +14444,7 @@ During handling of the above exception, another exception occurred:
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[69]:</div>
+    <div class="prompt output_prompt">Out[19]:</div>
 
 
 
@@ -14474,7 +14474,7 @@ Name: 1, dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[70]:</div>
+<div class="prompt input_prompt">In&nbsp;[20]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">naplneny_dataframe</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
@@ -14490,7 +14490,7 @@ Name: 1, dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[70]:</div>
+    <div class="prompt output_prompt">Out[20]:</div>
 
 
 
@@ -14520,7 +14520,7 @@ Name: 1, dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[71]:</div>
+<div class="prompt input_prompt">In&nbsp;[21]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#aktualni indexy</span>
@@ -14555,7 +14555,7 @@ Index([&#39;prvni&#39;, &#39;druhy&#39;, &#39;treti&#39;, &#39;ctvrty&#39;, &#39
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[71]:</div>
+    <div class="prompt output_prompt">Out[21]:</div>
 
 
 
@@ -14647,7 +14647,7 @@ Index([&#39;prvni&#39;, &#39;druhy&#39;, &#39;treti&#39;, &#39;ctvrty&#39;, &#39
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[72]:</div>
+<div class="prompt input_prompt">In&nbsp;[22]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">naplneny_dataframe</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
@@ -14663,7 +14663,7 @@ Index([&#39;prvni&#39;, &#39;druhy&#39;, &#39;treti&#39;, &#39;ctvrty&#39;, &#39
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[72]:</div>
+    <div class="prompt output_prompt">Out[22]:</div>
 
 
 
@@ -14693,7 +14693,7 @@ Name: druhy, dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[73]:</div>
+<div class="prompt input_prompt">In&nbsp;[23]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">naplneny_dataframe</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
@@ -14716,7 +14716,7 @@ Name: druhy, dtype: object</pre>
 <pre>
 <span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
 <span class="ansi-red-intense-fg ansi-bold">TypeError</span>                                 Traceback (most recent call last)
-<span class="ansi-green-intense-fg ansi-bold">&lt;ipython-input-73-a5eb04cadaf3&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
+<span class="ansi-green-intense-fg ansi-bold">&lt;ipython-input-23-a5eb04cadaf3&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
 <span class="ansi-green-intense-fg ansi-bold">----&gt; 1</span><span class="ansi-yellow-intense-fg ansi-bold"> </span>naplneny_dataframe<span class="ansi-yellow-intense-fg ansi-bold">.</span>loc<span class="ansi-yellow-intense-fg ansi-bold">[</span><span class="ansi-cyan-intense-fg ansi-bold">1</span><span class="ansi-yellow-intense-fg ansi-bold">]</span>
 
 <span class="ansi-green-intense-fg ansi-bold">c:\vs\programovani\python\workshopy\environment\lib\site-packages\pandas\core\indexing.py</span> in <span class="ansi-cyan-fg">__getitem__</span><span class="ansi-blue-intense-fg ansi-bold">(self, key)</span>
@@ -14779,7 +14779,7 @@ Name: druhy, dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[74]:</div>
+<div class="prompt input_prompt">In&nbsp;[24]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">naplneny_dataframe</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="s2">&quot;druhy&quot;</span><span class="p">]</span>
@@ -14795,7 +14795,7 @@ Name: druhy, dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[74]:</div>
+    <div class="prompt output_prompt">Out[24]:</div>
 
 
 
@@ -14825,7 +14825,7 @@ Name: druhy, dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[75]:</div>
+<div class="prompt input_prompt">In&nbsp;[25]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">naplneny_dataframe</span> <span class="o">=</span> <span class="n">naplneny_dataframe</span><span class="o">.</span><span class="n">drop</span><span class="p">([</span><span class="s2">&quot;ctvrty&quot;</span><span class="p">,</span> <span class="s2">&quot;paty&quot;</span><span class="p">],</span> <span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
@@ -14842,7 +14842,7 @@ Name: druhy, dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[75]:</div>
+    <div class="prompt output_prompt">Out[25]:</div>
 
 
 
@@ -14919,7 +14919,7 @@ Pandas mají funkci append, která mi podle dokumentace přijde extrémně podob
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[76]:</div>
+<div class="prompt input_prompt">In&nbsp;[26]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">slozenina</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">([</span><span class="n">naplneny_dataframe</span><span class="p">,</span> <span class="n">naplneny_dataframe</span><span class="p">])</span>
@@ -14936,7 +14936,7 @@ Pandas mají funkci append, která mi podle dokumentace přijde extrémně podob
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[76]:</div>
+    <div class="prompt output_prompt">Out[26]:</div>
 
 
 
@@ -15036,7 +15036,7 @@ Pandas mají funkci append, která mi podle dokumentace přijde extrémně podob
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[77]:</div>
+<div class="prompt input_prompt">In&nbsp;[27]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">slozenina</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="s2">&quot;druhy&quot;</span><span class="p">]</span>
@@ -15052,7 +15052,7 @@ Pandas mají funkci append, která mi podle dokumentace přijde extrémně podob
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[77]:</div>
+    <div class="prompt output_prompt">Out[27]:</div>
 
 
 
@@ -15120,7 +15120,7 @@ Pandas mají funkci append, která mi podle dokumentace přijde extrémně podob
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[78]:</div>
+<div class="prompt input_prompt">In&nbsp;[28]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">naplneny_dataframe</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
@@ -15136,7 +15136,7 @@ Pandas mají funkci append, která mi podle dokumentace přijde extrémně podob
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[78]:</div>
+    <div class="prompt output_prompt">Out[28]:</div>
 
 
 
@@ -15166,7 +15166,7 @@ Name: druhy, dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[79]:</div>
+<div class="prompt input_prompt">In&nbsp;[29]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">slozenina</span> <span class="o">=</span> <span class="n">slozenina</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span>
@@ -15183,7 +15183,7 @@ Name: druhy, dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[79]:</div>
+    <div class="prompt output_prompt">Out[29]:</div>
 
 
 
@@ -15290,7 +15290,7 @@ Name: druhy, dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[80]:</div>
+<div class="prompt input_prompt">In&nbsp;[30]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">slozenina</span><span class="p">[[</span><span class="s2">&quot;stringy&quot;</span><span class="p">]]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span><span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">))</span>
@@ -15323,7 +15323,7 @@ Name: stringy, dtype: object
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[80]:</div>
+    <div class="prompt output_prompt">Out[30]:</div>
 
 
 
@@ -15349,7 +15349,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[3]:</div>
+<div class="prompt input_prompt">In&nbsp;[31]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">osoby</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span>
@@ -15372,7 +15372,7 @@ dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[3]:</div>
+    <div class="prompt output_prompt">Out[31]:</div>
 
 
 
@@ -15456,7 +15456,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[15]:</div>
+<div class="prompt input_prompt">In&nbsp;[32]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">prodane_knihy</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span>
@@ -15476,7 +15476,7 @@ dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[15]:</div>
+    <div class="prompt output_prompt">Out[32]:</div>
 
 
 
@@ -16611,7 +16611,7 @@ dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[14]:</div>
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">pd</span><span class="o">.</span><span class="n">merge</span><span class="p">(</span><span class="n">osoby</span><span class="p">,</span> <span class="n">prodane_knihy</span><span class="p">,</span> <span class="n">on</span><span class="o">=</span><span class="s2">&quot;id&quot;</span><span class="p">)</span>
@@ -16627,18 +16627,79 @@ dtype: int64</pre>
 
 <div class="output_area">
 
-    <div class="prompt"></div>
+    <div class="prompt output_prompt">Out[4]:</div>
 
 
-<div class="output_subarea output_text output_error">
-<pre>
-<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
-<span class="ansi-red-intense-fg ansi-bold">NameError</span>                                 Traceback (most recent call last)
-<span class="ansi-green-intense-fg ansi-bold">&lt;ipython-input-14-bfa5c89a49b6&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
-<span class="ansi-green-intense-fg ansi-bold">----&gt; 1</span><span class="ansi-yellow-intense-fg ansi-bold"> </span>pd<span class="ansi-yellow-intense-fg ansi-bold">.</span>merge<span class="ansi-yellow-intense-fg ansi-bold">(</span>osoby<span class="ansi-yellow-intense-fg ansi-bold">,</span> prodane_knihy<span class="ansi-yellow-intense-fg ansi-bold">,</span> on<span class="ansi-yellow-intense-fg ansi-bold">=</span><span class="ansi-blue-intense-fg ansi-bold">&#34;id&#34;</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
 
-<span class="ansi-red-intense-fg ansi-bold">NameError</span>: name &#39;prodane_knihy&#39; is not defined</pre>
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>id</th>
+      <th>krestni_jmeno</th>
+      <th>prijmeni</th>
+      <th>vek</th>
+      <th>pohlavi</th>
+      <th>pocet_knih</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>100</td>
+      <td>Victor</td>
+      <td>Hugo</td>
+      <td>25.0</td>
+      <td>M</td>
+      <td>19</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>200</td>
+      <td>Mary</td>
+      <td>Shelly</td>
+      <td>30.0</td>
+      <td>F</td>
+      <td>25</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>300</td>
+      <td>Johann</td>
+      <td>Geothe</td>
+      <td>75.0</td>
+      <td>M</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>400</td>
+      <td>Albert</td>
+      <td>Camus</td>
+      <td>NaN</td>
+      <td>M</td>
+      <td>31</td>
+    </tr>
+  </tbody>
+</table>
 </div>
+</div>
+
 </div>
 
 </div>
@@ -16658,7 +16719,7 @@ dtype: int64</pre>
 <div class="prompt input_prompt">In&nbsp;[16]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">pd</span><span class="o">.</span><span class="n">merge</span><span class="p">(</span><span class="n">osoby</span><span class="p">,</span> <span class="n">prodane_knihy</span><span class="p">,</span> <span class="n">left_on</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;id&quot;</span><span class="p">],</span> <span class="n">right_on</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;id&quot;</span><span class="p">],</span> <span class="n">how</span><span class="o">=</span><span class="s1">&#39;outer&#39;</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">pd</span><span class="o">.</span><span class="n">merge</span><span class="p">(</span><span class="n">osoby</span><span class="p">,</span> <span class="n">prodane_knihy</span><span class="p">,</span> <span class="n">left_on</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;id&quot;</span><span class="p">],</span> <span class="n">right_on</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;id&quot;</span><span class="p">],</span> <span class="n">how</span><span class="o">=</span><span class="s2">&quot;outer&quot;</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -16747,6 +16808,522 @@ dtype: int64</pre>
       <td>38.0</td>
       <td>M</td>
       <td>NaN</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>V případě cross joinu je situace komplikovanější. Nic jako how="cross" totiž neexistuje. Jelikož se ve funkci merge vždy musí vyskytovat parametr <em>on</em>, nezbývá než mergované dataframy spojit přes sloupec s totožnou konstantní hodnotou. Ten si obvykle budeme muset ručně vyrobit.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">osoby_kopie</span> <span class="o">=</span> <span class="n">osoby</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+<span class="n">prodane_knihy_kopie</span> <span class="o">=</span> <span class="n">prodane_knihy</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+<span class="n">osoby_kopie</span><span class="p">[</span><span class="s2">&quot;spojovaci_sloupec&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="n">prodane_knihy_kopie</span><span class="p">[</span><span class="s2">&quot;spojovaci_sloupec&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="n">pd</span><span class="o">.</span><span class="n">merge</span><span class="p">(</span><span class="n">osoby_kopie</span><span class="p">,</span> <span class="n">prodane_knihy_kopie</span><span class="p">,</span> <span class="n">on</span><span class="o">=</span><span class="s2">&quot;spojovaci_sloupec&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[6]:</div>
+
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>id_x</th>
+      <th>krestni_jmeno</th>
+      <th>prijmeni</th>
+      <th>vek</th>
+      <th>pohlavi</th>
+      <th>spojovaci_sloupec</th>
+      <th>id_y</th>
+      <th>pocet_knih</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>100</td>
+      <td>Victor</td>
+      <td>Hugo</td>
+      <td>25.0</td>
+      <td>M</td>
+      <td>0</td>
+      <td>100</td>
+      <td>19</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>100</td>
+      <td>Victor</td>
+      <td>Hugo</td>
+      <td>25.0</td>
+      <td>M</td>
+      <td>0</td>
+      <td>200</td>
+      <td>25</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>100</td>
+      <td>Victor</td>
+      <td>Hugo</td>
+      <td>25.0</td>
+      <td>M</td>
+      <td>0</td>
+      <td>300</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>100</td>
+      <td>Victor</td>
+      <td>Hugo</td>
+      <td>25.0</td>
+      <td>M</td>
+      <td>0</td>
+      <td>400</td>
+      <td>31</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>200</td>
+      <td>Mary</td>
+      <td>Shelly</td>
+      <td>30.0</td>
+      <td>F</td>
+      <td>0</td>
+      <td>100</td>
+      <td>19</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>200</td>
+      <td>Mary</td>
+      <td>Shelly</td>
+      <td>30.0</td>
+      <td>F</td>
+      <td>0</td>
+      <td>200</td>
+      <td>25</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>200</td>
+      <td>Mary</td>
+      <td>Shelly</td>
+      <td>30.0</td>
+      <td>F</td>
+      <td>0</td>
+      <td>300</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>200</td>
+      <td>Mary</td>
+      <td>Shelly</td>
+      <td>30.0</td>
+      <td>F</td>
+      <td>0</td>
+      <td>400</td>
+      <td>31</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>300</td>
+      <td>Johann</td>
+      <td>Geothe</td>
+      <td>75.0</td>
+      <td>M</td>
+      <td>0</td>
+      <td>100</td>
+      <td>19</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>300</td>
+      <td>Johann</td>
+      <td>Geothe</td>
+      <td>75.0</td>
+      <td>M</td>
+      <td>0</td>
+      <td>200</td>
+      <td>25</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>300</td>
+      <td>Johann</td>
+      <td>Geothe</td>
+      <td>75.0</td>
+      <td>M</td>
+      <td>0</td>
+      <td>300</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>300</td>
+      <td>Johann</td>
+      <td>Geothe</td>
+      <td>75.0</td>
+      <td>M</td>
+      <td>0</td>
+      <td>400</td>
+      <td>31</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>400</td>
+      <td>Albert</td>
+      <td>Camus</td>
+      <td>NaN</td>
+      <td>M</td>
+      <td>0</td>
+      <td>100</td>
+      <td>19</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>400</td>
+      <td>Albert</td>
+      <td>Camus</td>
+      <td>NaN</td>
+      <td>M</td>
+      <td>0</td>
+      <td>200</td>
+      <td>25</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>400</td>
+      <td>Albert</td>
+      <td>Camus</td>
+      <td>NaN</td>
+      <td>M</td>
+      <td>0</td>
+      <td>300</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>400</td>
+      <td>Albert</td>
+      <td>Camus</td>
+      <td>NaN</td>
+      <td>M</td>
+      <td>0</td>
+      <td>400</td>
+      <td>31</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>500</td>
+      <td>William</td>
+      <td>Shakespear</td>
+      <td>38.0</td>
+      <td>M</td>
+      <td>0</td>
+      <td>100</td>
+      <td>19</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>500</td>
+      <td>William</td>
+      <td>Shakespear</td>
+      <td>38.0</td>
+      <td>M</td>
+      <td>0</td>
+      <td>200</td>
+      <td>25</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>500</td>
+      <td>William</td>
+      <td>Shakespear</td>
+      <td>38.0</td>
+      <td>M</td>
+      <td>0</td>
+      <td>300</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>500</td>
+      <td>William</td>
+      <td>Shakespear</td>
+      <td>38.0</td>
+      <td>M</td>
+      <td>0</td>
+      <td>400</td>
+      <td>31</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Stejně jako cross join nepodporují pandy ani joinování přes nerovnost. Workaround spočívá v nutnosti udělat cross join a poté v separátním kroku provést filtraci na podmínky. Tudíž například pro ekvivalent</p>
+<div class="highlight"><pre><span></span><span class="k">select</span> <span class="o">*</span> 
+<span class="k">from</span> <span class="n">osoby</span> <span class="n">oso1</span>
+<span class="k">inner</span> <span class="k">join</span> <span class="n">osoby</span> <span class="n">oso2</span>
+<span class="k">on</span> <span class="n">oso1</span><span class="p">.</span><span class="n">id</span> <span class="o">&lt;</span> <span class="n">oso2</span><span class="p">.</span><span class="n">id</span><span class="p">;</span>
+</pre></div>
+<p>realizujeme pomocí</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">osoby_cross_join</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">merge</span><span class="p">(</span><span class="n">osoby_kopie</span><span class="p">,</span> <span class="n">osoby_kopie</span><span class="p">,</span> <span class="n">on</span><span class="o">=</span><span class="s2">&quot;spojovaci_sloupec&quot;</span><span class="p">)</span>
+<span class="n">osoby_cross_join</span><span class="p">[</span><span class="n">osoby_cross_join</span><span class="p">[</span><span class="s2">&quot;id_x&quot;</span><span class="p">]</span><span class="o">&lt;</span><span class="n">osoby_cross_join</span><span class="p">[</span><span class="s2">&quot;id_y&quot;</span><span class="p">]]</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[10]:</div>
+
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>id_x</th>
+      <th>krestni_jmeno_x</th>
+      <th>prijmeni_x</th>
+      <th>vek_x</th>
+      <th>pohlavi_x</th>
+      <th>spojovaci_sloupec</th>
+      <th>id_y</th>
+      <th>krestni_jmeno_y</th>
+      <th>prijmeni_y</th>
+      <th>vek_y</th>
+      <th>pohlavi_y</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>100</td>
+      <td>Victor</td>
+      <td>Hugo</td>
+      <td>25.0</td>
+      <td>M</td>
+      <td>0</td>
+      <td>200</td>
+      <td>Mary</td>
+      <td>Shelly</td>
+      <td>30.0</td>
+      <td>F</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>100</td>
+      <td>Victor</td>
+      <td>Hugo</td>
+      <td>25.0</td>
+      <td>M</td>
+      <td>0</td>
+      <td>300</td>
+      <td>Johann</td>
+      <td>Geothe</td>
+      <td>75.0</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>100</td>
+      <td>Victor</td>
+      <td>Hugo</td>
+      <td>25.0</td>
+      <td>M</td>
+      <td>0</td>
+      <td>400</td>
+      <td>Albert</td>
+      <td>Camus</td>
+      <td>NaN</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>100</td>
+      <td>Victor</td>
+      <td>Hugo</td>
+      <td>25.0</td>
+      <td>M</td>
+      <td>0</td>
+      <td>500</td>
+      <td>William</td>
+      <td>Shakespear</td>
+      <td>38.0</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>200</td>
+      <td>Mary</td>
+      <td>Shelly</td>
+      <td>30.0</td>
+      <td>F</td>
+      <td>0</td>
+      <td>300</td>
+      <td>Johann</td>
+      <td>Geothe</td>
+      <td>75.0</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>200</td>
+      <td>Mary</td>
+      <td>Shelly</td>
+      <td>30.0</td>
+      <td>F</td>
+      <td>0</td>
+      <td>400</td>
+      <td>Albert</td>
+      <td>Camus</td>
+      <td>NaN</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>200</td>
+      <td>Mary</td>
+      <td>Shelly</td>
+      <td>30.0</td>
+      <td>F</td>
+      <td>0</td>
+      <td>500</td>
+      <td>William</td>
+      <td>Shakespear</td>
+      <td>38.0</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>300</td>
+      <td>Johann</td>
+      <td>Geothe</td>
+      <td>75.0</td>
+      <td>M</td>
+      <td>0</td>
+      <td>400</td>
+      <td>Albert</td>
+      <td>Camus</td>
+      <td>NaN</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>300</td>
+      <td>Johann</td>
+      <td>Geothe</td>
+      <td>75.0</td>
+      <td>M</td>
+      <td>0</td>
+      <td>500</td>
+      <td>William</td>
+      <td>Shakespear</td>
+      <td>38.0</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>400</td>
+      <td>Albert</td>
+      <td>Camus</td>
+      <td>NaN</td>
+      <td>M</td>
+      <td>0</td>
+      <td>500</td>
+      <td>William</td>
+      <td>Shakespear</td>
+      <td>38.0</td>
+      <td>M</td>
     </tr>
   </tbody>
 </table>
