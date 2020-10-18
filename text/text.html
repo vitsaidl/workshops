@@ -14035,7 +14035,7 @@ Tato práce se zabývá studiem dvou antiferomagnetických materiálů, které j
 <div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">gensim.parsing.porter</span> <span class="k">import</span> <span class="n">PorterStemmer</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">gensim.parsing.porter</span> <span class="kn">import</span> <span class="n">PorterStemmer</span>
 
 <span class="n">p</span> <span class="o">=</span> <span class="n">PorterStemmer</span><span class="p">()</span>
 <span class="n">p</span><span class="o">.</span><span class="n">stem_sentence</span><span class="p">(</span><span class="n">english_text</span><span class="p">)</span>
@@ -14575,7 +14575,7 @@ anizotropií anizotropie
 <div class="prompt input_prompt">In&nbsp;[21]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.feature_extraction.text</span> <span class="k">import</span> <span class="n">CountVectorizer</span><span class="p">,</span><span class="n">TfidfVectorizer</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.feature_extraction.text</span> <span class="kn">import</span> <span class="n">CountVectorizer</span><span class="p">,</span><span class="n">TfidfVectorizer</span>
 </pre></div>
 
     </div>
@@ -15033,7 +15033,7 @@ Cosine similarity
 <div class="prompt input_prompt">In&nbsp;[30]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span>  <span class="nn">sklearn.metrics.pairwise</span> <span class="k">import</span> <span class="n">cosine_similarity</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span>  <span class="nn">sklearn.metrics.pairwise</span> <span class="kn">import</span> <span class="n">cosine_similarity</span>
 <span class="n">cosine_similarity</span><span class="p">(</span><span class="n">new_document_vector</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span><span class="n">new_document_vector</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
 </pre></div>
 
@@ -15075,7 +15075,7 @@ Cosine similarity
 <div class="prompt input_prompt">In&nbsp;[31]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span>  <span class="nn">sklearn.metrics.pairwise</span> <span class="k">import</span> <span class="n">cosine_similarity</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span>  <span class="nn">sklearn.metrics.pairwise</span> <span class="kn">import</span> <span class="n">cosine_similarity</span>
 <span class="n">cosine_similarity</span><span class="p">(</span><span class="n">new_document_vector</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span><span class="n">new_document_vector</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
 </pre></div>
 
@@ -15575,7 +15575,7 @@ I LDA pracuje s bag-of-words přístupem, tedy nezáleží ji na pořadí slov v
     <span class="s2">&quot;categories&quot;</span><span class="p">:</span> <span class="n">text_categories_list</span><span class="p">,</span> 
     <span class="s2">&quot;text&quot;</span><span class="p">:</span><span class="n">text_string_list</span>
 <span class="p">})</span>
-<span class="n">texts_tab</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="s2">&quot;reuters_text.csv&quot;</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s2">&quot;;&quot;</span><span class="p">,</span> <span class="n">header</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+<span class="n">texts_tab</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="s2">&quot;reuters_text.csv&quot;</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s2">&quot;;&quot;</span><span class="p">,</span> <span class="n">header</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -15596,7 +15596,7 @@ I LDA pracuje s bag-of-words přístupem, tedy nezáleží ji na pořadí slov v
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
 <span class="n">reuters</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;reuters_text.csv&quot;</span><span class="p">,</span> <span class="n">header</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">names</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;id&quot;</span><span class="p">,</span> <span class="s2">&quot;keywords&quot;</span><span class="p">,</span> <span class="s2">&quot;text&quot;</span><span class="p">]</span> <span class="p">,</span><span class="n">sep</span><span class="o">=</span><span class="s2">&quot;;&quot;</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">f</span><span class="s2">&quot;Number of documents: {len(reuters)}&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Number of documents: {len(reuters)}&quot;</span><span class="p">)</span>
 <span class="n">reuters</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
 </pre></div>
 
@@ -15705,7 +15705,7 @@ I LDA pracuje s bag-of-words přístupem, tedy nezáleží ji na pořadí slov v
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">string</span>
-<span class="kn">from</span> <span class="nn">gensim.models.doc2vec</span> <span class="k">import</span> <span class="n">TaggedDocument</span>
+<span class="kn">from</span> <span class="nn">gensim.models.doc2vec</span> <span class="kn">import</span> <span class="n">TaggedDocument</span>
 
 <span class="n">documents_array</span> <span class="o">=</span> <span class="n">reuters</span><span class="p">[</span><span class="s2">&quot;text&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">values</span><span class="o">.</span><span class="n">tolist</span><span class="p">()</span>
 <span class="n">sentences</span> <span class="o">=</span> <span class="p">[]</span>
@@ -15743,8 +15743,8 @@ Pomineme-li samotný text, je nejdůležitějším parametrem modelu počet tém
 <div class="prompt input_prompt">In&nbsp;[12]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">gensim.corpora.dictionary</span> <span class="k">import</span> <span class="n">Dictionary</span>
-<span class="kn">from</span> <span class="nn">gensim.models</span> <span class="k">import</span> <span class="n">LdaModel</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">gensim.corpora.dictionary</span> <span class="kn">import</span> <span class="n">Dictionary</span>
+<span class="kn">from</span> <span class="nn">gensim.models</span> <span class="kn">import</span> <span class="n">LdaModel</span>
 
 <span class="n">sentences_dictionary</span> <span class="o">=</span> <span class="n">Dictionary</span><span class="p">(</span><span class="n">sentences</span><span class="p">)</span>
 <span class="n">sentences_corpus</span> <span class="o">=</span> <span class="p">[</span><span class="n">sentences_dictionary</span><span class="o">.</span><span class="n">doc2bow</span><span class="p">(</span><span class="n">text</span><span class="p">)</span> <span class="k">for</span> <span class="n">text</span> <span class="ow">in</span> <span class="n">sentences</span><span class="p">]</span>
@@ -21213,8 +21213,8 @@ Pomineme-li samotný text, je nejdůležitějším parametrem modelu počet tém
 <div class="prompt input_prompt">In&nbsp;[41]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">gensim.models</span> <span class="k">import</span> <span class="n">HdpModel</span>
-<span class="kn">from</span> <span class="nn">gensim.corpora.dictionary</span> <span class="k">import</span> <span class="n">Dictionary</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">gensim.models</span> <span class="kn">import</span> <span class="n">HdpModel</span>
+<span class="kn">from</span> <span class="nn">gensim.corpora.dictionary</span> <span class="kn">import</span> <span class="n">Dictionary</span>
 
 <span class="n">sentences_dictionary</span> <span class="o">=</span> <span class="n">Dictionary</span><span class="p">(</span><span class="n">sentences</span><span class="p">)</span>
 <span class="n">sentences_corpus</span> <span class="o">=</span> <span class="p">[</span><span class="n">sentences_dictionary</span><span class="o">.</span><span class="n">doc2bow</span><span class="p">(</span><span class="n">text</span><span class="p">)</span> <span class="k">for</span> <span class="n">text</span> <span class="ow">in</span> <span class="n">sentences</span><span class="p">]</span>
@@ -21428,7 +21428,7 @@ Jak je toho dosáhnuto? Používá se shallow neuronová síť (tj. síť s jedn
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
 <span class="n">reuters</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;reuters_text.csv&quot;</span><span class="p">,</span> <span class="n">header</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">names</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;id&quot;</span><span class="p">,</span> <span class="s2">&quot;keywords&quot;</span><span class="p">,</span> <span class="s2">&quot;text&quot;</span><span class="p">]</span> <span class="p">,</span><span class="n">sep</span><span class="o">=</span><span class="s2">&quot;;&quot;</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">f</span><span class="s2">&quot;Number of documents: {len(reuters)}&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Number of documents: {len(reuters)}&quot;</span><span class="p">)</span>
 <span class="n">reuters</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
 </pre></div>
 
@@ -21537,7 +21537,7 @@ Jak je toho dosáhnuto? Používá se shallow neuronová síť (tj. síť s jedn
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">string</span>
-<span class="kn">from</span> <span class="nn">gensim.models.doc2vec</span> <span class="k">import</span> <span class="n">TaggedDocument</span>
+<span class="kn">from</span> <span class="nn">gensim.models.doc2vec</span> <span class="kn">import</span> <span class="n">TaggedDocument</span>
 
 <span class="n">documents_array</span> <span class="o">=</span> <span class="n">reuters</span><span class="p">[</span><span class="s2">&quot;text&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">values</span><span class="o">.</span><span class="n">tolist</span><span class="p">()</span>
 <span class="n">tokenized_documents</span> <span class="o">=</span> <span class="p">[]</span>
@@ -21661,7 +21661,7 @@ Podobnost se vypočítá s pomocí funkce <em>model.wv.similarity(vektor_1, vekt
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">first_word</span> <span class="o">=</span> <span class="s2">&quot;rain&quot;</span>
 <span class="n">compared_words</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;storm&quot;</span><span class="p">,</span> <span class="s2">&quot;water&quot;</span><span class="p">,</span> <span class="s2">&quot;fire&quot;</span><span class="p">,</span> <span class="s2">&quot;taxes&quot;</span><span class="p">]</span>
 <span class="k">for</span> <span class="n">second_word</span> <span class="ow">in</span> <span class="n">compared_words</span><span class="p">:</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">f</span><span class="s2">&quot;Similarity of words </span><span class="si">{first_word}</span><span class="s2"> and </span><span class="si">{second_word}</span><span class="s2"> is {model.wv.similarity(first_word, second_word):.2f}&quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Similarity of words </span><span class="si">{first_word}</span><span class="s2"> and </span><span class="si">{second_word}</span><span class="s2"> is {model.wv.similarity(first_word, second_word):.2f}&quot;</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -21881,8 +21881,8 @@ Similarity of words rain and taxes is 0.18
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># NOTE - this code was copied from https://radimrehurek.com/gensim/auto_examples/tutorials/run_word2vec.html</span>
 
-<span class="kn">from</span> <span class="nn">sklearn.decomposition</span> <span class="k">import</span> <span class="n">IncrementalPCA</span>    <span class="c1"># inital reduction</span>
-<span class="kn">from</span> <span class="nn">sklearn.manifold</span> <span class="k">import</span> <span class="n">TSNE</span>                   <span class="c1"># final reduction</span>
+<span class="kn">from</span> <span class="nn">sklearn.decomposition</span> <span class="kn">import</span> <span class="n">IncrementalPCA</span>    <span class="c1"># inital reduction</span>
+<span class="kn">from</span> <span class="nn">sklearn.manifold</span> <span class="kn">import</span> <span class="n">TSNE</span>                   <span class="c1"># final reduction</span>
 <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>                                  <span class="c1"># array handling</span>
 
 
@@ -21912,7 +21912,7 @@ Similarity of words rain and taxes is 0.18
 <span class="n">x_vals</span><span class="p">,</span> <span class="n">y_vals</span><span class="p">,</span> <span class="n">labels</span> <span class="o">=</span> <span class="n">reduce_dimensions</span><span class="p">(</span><span class="n">model</span><span class="p">)</span>
 
 <span class="k">def</span> <span class="nf">plot_with_plotly</span><span class="p">(</span><span class="n">x_vals</span><span class="p">,</span> <span class="n">y_vals</span><span class="p">,</span> <span class="n">labels</span><span class="p">,</span> <span class="n">plot_in_notebook</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
-    <span class="kn">from</span> <span class="nn">plotly.offline</span> <span class="k">import</span> <span class="n">init_notebook_mode</span><span class="p">,</span> <span class="n">iplot</span><span class="p">,</span> <span class="n">plot</span>
+    <span class="kn">from</span> <span class="nn">plotly.offline</span> <span class="kn">import</span> <span class="n">init_notebook_mode</span><span class="p">,</span> <span class="n">iplot</span><span class="p">,</span> <span class="n">plot</span>
     <span class="kn">import</span> <span class="nn">plotly.graph_objs</span> <span class="k">as</span> <span class="nn">go</span>
 
     <span class="n">trace</span> <span class="o">=</span> <span class="n">go</span><span class="o">.</span><span class="n">Scatter</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="n">x_vals</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="n">y_vals</span><span class="p">,</span> <span class="n">mode</span><span class="o">=</span><span class="s1">&#39;text&#39;</span><span class="p">,</span> <span class="n">text</span><span class="o">=</span><span class="n">labels</span><span class="p">)</span>
@@ -21985,7 +21985,7 @@ Stejně jako u word2vec budeme zkoumat dataset Reuters.</p>
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
 <span class="n">reuters</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;reuters_text.csv&quot;</span><span class="p">,</span> <span class="n">header</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">names</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;id&quot;</span><span class="p">,</span> <span class="s2">&quot;keywords&quot;</span><span class="p">,</span> <span class="s2">&quot;text&quot;</span><span class="p">]</span> <span class="p">,</span><span class="n">sep</span><span class="o">=</span><span class="s2">&quot;;&quot;</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">f</span><span class="s2">&quot;Number of documents: {len(reuters)}&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Number of documents: {len(reuters)}&quot;</span><span class="p">)</span>
 <span class="n">reuters</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
 </pre></div>
 
@@ -22094,7 +22094,7 @@ Stejně jako u word2vec budeme zkoumat dataset Reuters.</p>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">string</span>
-<span class="kn">from</span> <span class="nn">gensim.models.doc2vec</span> <span class="k">import</span> <span class="n">TaggedDocument</span>
+<span class="kn">from</span> <span class="nn">gensim.models.doc2vec</span> <span class="kn">import</span> <span class="n">TaggedDocument</span>
 
 <span class="n">documents_array</span> <span class="o">=</span> <span class="n">reuters</span><span class="p">[</span><span class="s2">&quot;text&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">values</span>
 <span class="n">tagged_documents</span> <span class="o">=</span> <span class="p">[]</span>
@@ -22665,8 +22665,8 @@ lt mirtone international inc 1st qtr dec 31 net shr two cts vs two cts net 407 3
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># NOTE - this code was copied from https://radimrehurek.com/gensim/auto_examples/tutorials/run_word2vec.html</span>
 <span class="c1"># with very minor changes (because of transition from word2vec to doc2vec)</span>
 
-<span class="kn">from</span> <span class="nn">sklearn.decomposition</span> <span class="k">import</span> <span class="n">IncrementalPCA</span>    <span class="c1"># inital reduction</span>
-<span class="kn">from</span> <span class="nn">sklearn.manifold</span> <span class="k">import</span> <span class="n">TSNE</span>                   <span class="c1"># final reduction</span>
+<span class="kn">from</span> <span class="nn">sklearn.decomposition</span> <span class="kn">import</span> <span class="n">IncrementalPCA</span>    <span class="c1"># inital reduction</span>
+<span class="kn">from</span> <span class="nn">sklearn.manifold</span> <span class="kn">import</span> <span class="n">TSNE</span>                   <span class="c1"># final reduction</span>
 <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>                                  <span class="c1"># array handling</span>
 
 
@@ -22697,7 +22697,7 @@ lt mirtone international inc 1st qtr dec 31 net shr two cts vs two cts net 407 3
 <span class="n">x_vals</span><span class="p">,</span> <span class="n">y_vals</span><span class="p">,</span> <span class="n">labels</span> <span class="o">=</span> <span class="n">reduce_dimensions</span><span class="p">(</span><span class="n">model</span><span class="p">)</span>
 
 <span class="k">def</span> <span class="nf">plot_with_plotly</span><span class="p">(</span><span class="n">x_vals</span><span class="p">,</span> <span class="n">y_vals</span><span class="p">,</span> <span class="n">labels</span><span class="p">,</span> <span class="n">plot_in_notebook</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
-    <span class="kn">from</span> <span class="nn">plotly.offline</span> <span class="k">import</span> <span class="n">init_notebook_mode</span><span class="p">,</span> <span class="n">iplot</span><span class="p">,</span> <span class="n">plot</span>
+    <span class="kn">from</span> <span class="nn">plotly.offline</span> <span class="kn">import</span> <span class="n">init_notebook_mode</span><span class="p">,</span> <span class="n">iplot</span><span class="p">,</span> <span class="n">plot</span>
     <span class="kn">import</span> <span class="nn">plotly.graph_objs</span> <span class="k">as</span> <span class="nn">go</span>
 
     <span class="n">trace</span> <span class="o">=</span> <span class="n">go</span><span class="o">.</span><span class="n">Scatter</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="n">x_vals</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="n">y_vals</span><span class="p">,</span> <span class="n">mode</span><span class="o">=</span><span class="s1">&#39;text&#39;</span><span class="p">,</span> <span class="n">text</span><span class="o">=</span><span class="n">labels</span><span class="p">)</span>
@@ -22764,7 +22764,7 @@ Naimportujme si opět jak balíček, tak model, a tokenizujme anglickou větu.</
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">spacy</span>
-<span class="kn">from</span> <span class="nn">spacy</span> <span class="k">import</span> <span class="n">displacy</span>
+<span class="kn">from</span> <span class="nn">spacy</span> <span class="kn">import</span> <span class="n">displacy</span>
 <span class="n">nlp</span> <span class="o">=</span> <span class="n">spacy</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="s2">&quot;en_core_web_sm&quot;</span><span class="p">)</span>
 </pre></div>
 
@@ -23596,7 +23596,7 @@ Shutting down server on port 5000.
 <div class="prompt input_prompt">In&nbsp;[1]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">ufal.nametag</span> <span class="k">import</span> <span class="o">*</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">ufal.nametag</span> <span class="kn">import</span> <span class="o">*</span>
 <span class="n">ner</span> <span class="o">=</span> <span class="n">Ner</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="s2">&quot;czech-cnec2.0-140304.ner&quot;</span><span class="p">)</span>
 <span class="n">tokenizer</span> <span class="o">=</span> <span class="n">ner</span><span class="o">.</span><span class="n">newTokenizer</span><span class="p">()</span>
 </pre></div>
@@ -23665,6 +23665,42 @@ Entity:  Václavského náměstí  Type:  gs
 
 </div>
 </div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Existuje ještě jiný způsob, jak na českém textu NER realizovat. Jedná se o BERT-like knihovnu/framework DeepPavlov. Jak u něj rozpoznávání entit realizovat? Následující kód</p>
+<div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">deeppavlov</span> <span class="kn">import</span> <span class="n">configs</span><span class="p">,</span> <span class="n">build_model</span>
+
+<span class="n">ner_model</span> <span class="o">=</span> <span class="n">build_model</span><span class="p">(</span><span class="n">configs</span><span class="o">.</span><span class="n">ner</span><span class="o">.</span><span class="n">ner_ontonotes_bert_mult</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">ner_model</span><span class="p">([</span><span class="s1">&#39;Bob Ross lived in Florida&#39;</span><span class="p">]))</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">ner_model</span><span class="p">([</span><span class="s1">&#39;Hostinský Dominik Výčep, vlastník hospody Na Mýtince, má účet u Komerční banky a Monety.&#39;</span><span class="p">]))</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">ner_model</span><span class="p">([</span><span class="s1">&#39;Firma Agrofert prý nyní už nepatří šéfovi ANO Andreji Babišovi.&#39;</span><span class="p">]))</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">ner_model</span><span class="p">([</span><span class="s1">&#39;Josef Vyskočil zaplatil 55 Kč a poté 3. února 2020 získal produkt Můj Účet Plus.&#39;</span><span class="p">]))</span>
+</pre></div>
+<p>vytvoří takovýto výstup:<br>
+[[['Bob', 'Ross', 'lived', 'in', 'Florida']], [['B-PERSON', 'I-PERSON', 'O', 'O', 'B-GPE']]]<br>
+[[['Hostinský', 'Dominik', 'Výčep', ',', 'vlastník', 'hospody', 'Na', 'Mýtince', ',', 'má', 'účet', 'u', 'Komerční', 'banky', 'a', 'Monety', '.']], [['B-GPE', 'B-PERSON', 'I-PERSON', 'O', 'O', 'O', 'B-FAC', 'I-FAC', 'O', 'O', 'O', 'O', 'B-ORG', 'I-ORG', 'O', 'B-ORG', 'O']]]<br>
+[[['Firma', 'Agrofert', 'prý', 'nyní', 'už', 'nepatří', 'šéfovi', 'ANO', 'Andreji', 'Babišovi', '.']], [['O', 'B-ORG', 'O', 'O', 'O', 'O', 'O', 'B-ORG', 'B-PERSON', 'I-PERSON', 'O']]]<br>
+[[['Josef', 'Vyskočil', 'zaplatil', '55', 'Kč', 'a', 'poté', '3', '.', 'února', '2020', 'získal', 'produkt', 'Můj', 'Účet', 'Plus', '.']], [['B-PERSON', 'I-PERSON', 'O', 'B-MONEY', 'I-MONEY', 'O', 'O', 'B-DATE', 'I-DATE', 'I-DATE', 'I-DATE', 'O', 'O', 'B-PRODUCT', 'I-PRODUCT', 'I-PRODUCT', 'O']]]</p>
+<p>Co řádek, to dvojice původní tokenizovaná věta - list s rozepsáním entit. Vlastní tokeny zde mají i čárky a tečky. Je vidět, že multijazykový model si poradí součaně jak s angličtinou, tak s češtinou. Tokeny, které do žádné entity nepatří, jsou označeny písmenem O. Prefix B- značí počátek entity, I- její pokračování. Význam některých entit je zjevný, snad ale poznamenejme, že GPE značí země a města a FAC budovy. Vidíme, že jména osob, datumy i finanční částky jsou v příkladu výše odhadnuty správně. Slovo "Hostinský" bylo bohužel chybně označeno jako entita země/město. Naprosti tomu ANO a obě banky byly správně rozpoznány jako organizace.<br>
+Hlavní problém s DeepPalovem (a vlastně obecně s čímkoli založeném na BERTu) je hardwarová náročnost. A to i když člověk neplánuje model přeučovat a opravdu ho chce jenom použít. Několikagigový model se totiž celý musí načíst do RAMky. Jelikož mám na svém počítači jen 8 GB, tak se mi výše uvedený kód nepodařilo rozběhnout v Jupyteru a musel jsem ho spouštět jako samostatný pythoní skript.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span> 
+</pre></div>
+
+    </div>
+</div>
+</div>
+
 </div>
     </div>
   </div>
