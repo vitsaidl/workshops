@@ -8,5 +8,6 @@ Pokud objevíte nějakou chybu či zavádějící formulaci, napište mi to pros
 - Pandas - základní ovládání, analogie k SQL, načítání a ukládání, vizualizace  
 - Regulární výrazy (primárně pro Python, ale řeší se tu i Notepad++ a Teradata)  
 - Machine learning - příprava dat, pár základních algoritmů, interpretabilita, pipeliny
-- Ukládání ML modelů ve formátu ONNX a následné použití těchto modelů v Javě  
+- Ukládání ML modelů ve formátu ONNX a následné použití těchto modelů v Javě (adresář machine_learning)
+- Adversary útoky (adresář machine_learning)
 - Text - základy NLP  
