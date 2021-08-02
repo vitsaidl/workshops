@@ -3,6 +3,7 @@ V tomto repozitáři se nalézají podklady pro workshopy/přednášky, které j
 Každá přednáška resp. okruh přednášek má v repozitáři svůj vlastní adresář. V něm se nachází jednak jupyterovský notebook, jednak konverze tohoto notebooku do html - notebooky se totiž nezobrazují v IE. Nicméně jelikož lehce pokročilejší témata tak nějak předpokládají buďto Jupyter nainstalovaný na lokálu, anebo možnost používat nezastaralý prohlížeč, konverzi notebooku do html souboru u nich už nepokládám za potřebnou. Případně se zde budou nalézat i další materiály, obvykle asi py soubory.  
 Pokud objevíte nějakou chybu či zavádějící formulaci, napište mi to prosím do Issues.  
 Možná se Vám po kliknutí na notebook (ipynb soubor) zobrazí hláška "Sorry, something went wrong. Reload?". V takovém případě jděte [sem](https://nbviewer.jupyter.org/) a do textového pole vložte adresu notebooku, např. https://github.com/vitsaidl/workshops/blob/master/machine_learning/machine_learning.ipynb.  
+EDIT - jelikož jsem zjistil, že se tento repozitář také hodí jako sbírka ucelených poznámek, když si potřebuji při práci nějakou věc připomenou,t  objeví se zde občas i věci, které s žádným workshopem nic moc společného nemají.
 
 # Aktuální podklady  
 - Intro do Pythonu (od "Hello world" k funkcím)  
@@ -12,3 +13,5 @@ Možná se Vám po kliknutí na notebook (ipynb soubor) zobrazí hláška "Sorry
 - Ukládání ML modelů ve formátu ONNX a následné použití těchto modelů v Javě (adresář machine_learning)
 - Adversary útoky (adresář machine_learning)
 - Text - základy NLP  
+- Úvod do Pytorche
+- Sbírka drobných textů k různým pythoním balíčkům
