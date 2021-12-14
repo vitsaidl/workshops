@@ -15,3 +15,5 @@ EDIT - jelikož jsem zjistil, že se tento repozitář také hodí jako sbírka 
 - Text - základy NLP  
 - Úvod do Pytorche
 - Sbírka drobných textů k různým pythoním balíčkům
+- Elasticsearch
+- Neo4j
