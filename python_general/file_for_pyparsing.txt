@@ -1,0 +1,1 @@
+select some_col_1 from some_table_1;
