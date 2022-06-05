@@ -1,0 +1,6 @@
+id,first_name,last_name,age,gender
+100,Victor,Hugo,25.0,M
+200,Mary,Shelly,30.0,F
+300,Johann,Geothe,75.0,M
+400,Albert,Camus,,M
+500,William,Shakespear,38.0,M
