@@ -4,7 +4,8 @@ text/majka.w-lt
 text/czech_stemmer.py
 text/czech-morfflex-161115.dict
 text/reuters_text.csv
-text/__pycache__/
+__pycache__
+.pytest_cache
 machine_learning/train.csv
 machine_learning/iris_pickle.pkl
 machine_learning/iris_onnx.onnx
