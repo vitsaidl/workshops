@@ -35,14 +35,6 @@ def test_insert_called_last_time_with_expected_params():
     actual_params = mocked_object.insert.call_args[0]
     assert expected_params == actual_params
     
-def test_insert_called_last_time_with_expected_params():
-    mocked_object = Mock()
-    script_for_mocks.do_something_with_frame(mocked_object)
-    expected_params = (1, "another_column", 142)
-    #because call_args is a call object which have args tuple at index 0
-    actual_params = mocked_object.insert.call_args[0]
-    assert expected_params == actual_params
-    
 def test_insert_called_both_times_with_expected_params():
     mocked_object = Mock()
     script_for_mocks.do_something_with_frame(mocked_object)

@@ -2,8 +2,6 @@ import script_for_fixtures
 import pandas as pd
 import pytest
 
-#by default fixture invoked once per function
-#if we want to invoke it once per module @pytest.fixture(scope="module")
 @pytest.fixture
 def frame_for_test()->pd.DataFrame:
     return pd.DataFrame({"some_col":[1,2,3]})

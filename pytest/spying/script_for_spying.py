@@ -1,7 +1,7 @@
 import pandas as pd
 
 
-def get_another_frame():
+def get_another_frame()->None:
     some_frame = pd.DataFrame({
         "first_col": [1, 2, 3],
         "second_col": [10, 20, 30]
@@ -13,9 +13,9 @@ def get_another_frame():
 
     return frame_from_method 
 
-def get_nothing(number, text):
+def get_nothing(number:int, text:str)->None:
     return None
 
-def wrapper_function():
+def wrapper_function()->None:
     get_nothing(42, "hello")
 

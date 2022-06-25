@@ -1,4 +1,4 @@
-def create_html_page():
+def create_html_page()->None:
     page_text = "<b>Hello world</b>"
     
     with open("index.html", "w+", encoding="utf-8") as file:
