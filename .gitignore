@@ -4,6 +4,15 @@ text/majka.w-lt
 text/czech_stemmer.py
 text/czech-morfflex-161115.dict
 text/reuters_text.csv
+text/csfd-90k-reviews-ranlp2013.xml
+text/train_for_fasttext.csv
+text/test_for_fasttext.csv
+text/for_word_repre.csv
+text/fasttext_classification_model.bin
+text/fasttext_classification_model_quantized.bin
+text/cc.cs.300.vec
+text/lid.176.bin
+text/model_unsupervised.bin
 __pycache__
 .pytest_cache
 machine_learning/train.csv
