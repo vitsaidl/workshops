@@ -13,6 +13,8 @@ text/fasttext_classification_model_quantized.bin
 text/cc.cs.300.vec
 text/lid.176.bin
 text/model_unsupervised.bin
+text/top2vec_nonlem.bin
+text/top2vec_nonlem_reduc.bin
 __pycache__
 .pytest_cache
 machine_learning/train.csv
