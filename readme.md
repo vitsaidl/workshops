@@ -7,13 +7,17 @@ EDIT - jelikož jsem zjistil, že se tento repozitář také hodí jako sbírka 
 
 # Aktuální podklady  
 - Intro do Pythonu (od "Hello world" k funkcím)  
+- Pokračování intra se zaměřením na objekty v Pythonu  
 - Pandas - základní ovládání, analogie k SQL, načítání a ukládání, vizualizace  
 - Regulární výrazy (primárně pro Python, ale řeší se tu i Notepad++ a Teradata)  
-- Machine learning - příprava dat, pár základních algoritmů, interpretabilita, pipeliny
-- Ukládání ML modelů ve formátu ONNX a následné použití těchto modelů v Javě (adresář machine_learning)
-- Adversary útoky (adresář machine_learning)
+- Machine learning - příprava dat, pár základních algoritmů, interpretabilita, pipeliny  
+- Ukládání ML modelů ve formátu ONNX a následné použití těchto modelů v Javě (adresář machine_learning)  
+- Adversary útoky (adresář machine_learning)  
 - Text - základy NLP  
-- Úvod do Pytorche
-- Sbírka drobných textů k různým pythoním balíčkům
-- Elasticsearch
-- Neo4j
+- Text - používání OpenAI a Langchainu  
+- Vytváření grafů v Pythonu  
+- Úvod do Pytorche  
+- Práce s daty a ML v PySparku  
+- Sbírka drobných textů k různým pythoním balíčkům  
+- Elasticsearch  
+- Neo4j  
