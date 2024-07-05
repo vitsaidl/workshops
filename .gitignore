@@ -24,6 +24,7 @@ machine_learning/iris_onnx.onnx
 machine_learning/houses_onnx.onnx
 machine_learning/saved_tensor.t
 python_general/soubor.html
+machine_learning/e5_onnx_large
 pyspark/iris.data
 pyspark/cereal.csv
 graphs/some_graph.jpg
