@@ -29,3 +29,6 @@ pyspark/iris.data
 pyspark/cereal.csv
 graphs/some_graph.jpg
 environment
+old_environment
+sqllite_checkpoints.db
+.env
