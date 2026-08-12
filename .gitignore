@@ -36,3 +36,4 @@ test_chroma_langchain_db
 test_chroma_langchain_db_2
 ZherisiaGazetteer.pdf
 qdrant_zherasia
+.deepeval/
